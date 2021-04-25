@@ -3,7 +3,6 @@ use bevy::{input::system::exit_on_esc_system, prelude::*};
 struct Position { x: i32, y: i32 }
 
 struct Champion { value: i32, max_value: i32 }
-
 fn init_world(mut commands: Commands) {
     commands.spawn().insert(Champion).insert(Position(10, 0));
 }

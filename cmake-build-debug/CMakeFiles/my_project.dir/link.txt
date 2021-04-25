@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/my_project.dir/src/main.c.o -o my_project  -Wl,-rpath,/usr/local/lib /usr/local/lib/libraylib.so -L/usr/local/lib -lraylib 

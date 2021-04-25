@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arseny/projects/ludum_48/src/consts.h
+
+/home/arseny/projects/ludum_48/src/main.c
+raylib.h
+/home/arseny/projects/ludum_48/src/raylib.h
+consts.h
+/home/arseny/projects/ludum_48/src/consts.h
+stdbool.h
+-
+
